@@ -48,7 +48,6 @@ function Library:CreateWindow(Config, Parent)
 	local Topbar = Main.Topbar
 	local TContainer = Holder.TContainer
 	local TBContainer = Holder.TBContainer.Holder
-  syn.protect_gui(Screen)
 	--[[
 	-- idk probably fix for exploits that dont have this function
 	if syn and syn.protect_gui then
